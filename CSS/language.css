@@ -26,3 +26,8 @@
     justify-content: center;
     font-size: xx-large;
 }
+@media screen and (max-width: 750px) {
+    #third,#fourth {
+     
+    }
+  }
