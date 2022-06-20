@@ -302,3 +302,333 @@ li a:hover {
     margin-top: 0%;
     margin-left: 80%;
 }
+@media screen and (max-width: 800px) {
+    
+    .container{
+        width: 100%;
+        margin-top: 10px;
+        height: 30px;
+    }
+    .navlist{
+        border-style: solid;
+        width: 99.5%;
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(243, 210, 78);
+        border-radius: 0.5rem;
+        z-index: -1;
+
+    }
+
+    #a, #b{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+        float: left;
+        font-size: 3vw;
+        
+    }
+    #c, #d, #e{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+        float: right;
+        font-size: 3vw;
+    }
+    li a:hover {
+        opacity: 0.3;
+    }
+    #search{
+        
+        margin-left: 5px;
+        margin-right: 5px;
+        
+        border-width: medium;
+        border-style: solid;
+        background-color: rgb(12, 176, 53);
+        
+        height: 400px;
+        border-radius: 0.5rem;
+    }
+    #logo{
+        width: 50%;
+        height: 85%;
+        margin-top: -40px;
+        margin-left: 25%;
+        
+    }
+    #name{
+        margin-top: -60px;
+        width: 40%;
+        height: 30px;
+        margin-left:20%;
+        border-width: 3px;
+        border-style: solid;
+        
+    }
+    #btn{
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        background-color: rgb(72, 69, 228);
+        cursor: pointer;
+        
+    }
+    #btn:hover{
+        opacity: 0.8;
+        
+    }
+    #studies,#novels{
+        text-align: center;
+        margin-top: 1%;
+        font-size: x-large;
+    }
+    #blocks1,#blocks2{
+        display: inline;
+        list-style-type: none;
+        float: left;
+        overflow: hidden;
+    }
+    #f{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:left;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-left: -1%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        font-size: 4.5vw;
+    }
+    #g{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:right;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-left: 2.1%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        margin-top: 0%;
+        margin-right: 20%;
+        font-size: 4.5vw;
+    }
+    #h{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:right;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-left: 45%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        margin-top: -8%;
+        margin-bottom: 0%;
+        margin-right: 20%;
+        font-size: 4.5vw;
+    }
+    #i{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:left;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-right: 2.8%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        margin-top: 10%;
+        margin-right:20%;
+        font-size: 4.5vw;
+    }
+    #f:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #g:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #h:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #i:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #j{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:left;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-left: -1%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        font-size: 4.5vw;
+    }
+    #k{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:right;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-right: 20%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        font-size: 4.5vw;
+    }
+    #l{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:left;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-left: 0%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        font-size: 4.5vw;
+        margin-top: 10%;
+    }
+    #m{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        float:right;
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-right: 20%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        font-size: 4.5vw;
+        margin-top: 10%;
+    }
+    #n{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0.8% 0.8%;
+        text-decoration: none;
+        cursor: pointer;
+        
+        border-width: 3px;
+        border-style: solid;
+        width: 30%;
+        margin-right: 2.5%;
+        border-radius: 1rem;
+        background-color: rgb(176, 246, 246);
+        font-size: 4.5vw;
+        margin-top: 10%;
+        margin-right: 44%;
+    }
+    #blocks3{
+        border-style: solid;
+        width: 99.5%;
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(252, 248, 248, 0.63);
+        border-radius: 0.5rem;
+        z-index: -1;
+    }
+    #j:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #k:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #l:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #m:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #n:hover{
+        transition: 1s;
+        background-color: antiquewhite;
+    }
+    #o,#p,#q{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+        float: left;
+        margin-left: 5%;
+        font-size: 2vw;
+    }
+    #o:hover{
+        opacity: 0.6;
+    }
+    #p:hover{
+        opacity: 0.6;
+    }
+    #q:hover{
+        opacity: 0.6;
+    }
+    #r{
+        display: block;
+        
+        text-decoration: none;
+        cursor: pointer;
+        
+        margin-top: 2%;
+        margin-left: 80%;
+        width: 30%;
+    }
+  }
