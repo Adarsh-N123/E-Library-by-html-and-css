@@ -212,6 +212,9 @@ li a:hover {
     border-radius: 1rem;
     background-color: rgb(176, 246, 246);
 }
+#lib{
+    font-size: xx-large;
+}
 #m{
     display: block;
     color: black;
@@ -367,8 +370,7 @@ li a:hover {
         
     }
     #name{
-        margin-top: -66px;
-        margin-bottom: 2%;
+        margin-top: -65px;
         width: 40%;
         height: 30px;
         margin-left:20%;
@@ -378,10 +380,11 @@ li a:hover {
     }
     #btn{
         height: 35px;
-        width: 100px;
+        width: 10%;
         text-align: center;
         background-color: rgb(72, 69, 228);
         cursor: pointer;
+        font-size: 2vw;
         
     }
     #btn:hover{
@@ -451,6 +454,9 @@ li a:hover {
         margin-bottom: 0%;
         margin-right: 20%;
         font-size: 4.5vw;
+    }
+    #lib{
+        font-size: x-large;
     }
     #i{
         display: block;
@@ -631,5 +637,39 @@ li a:hover {
         margin-top: 2%;
         margin-left: 80%;
         width: 30%;
+    }
+    #lib{
+        font-size: 2vw;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    #name{
+        
+        width: 35%;
+        height: 30px;
+        margin-left:15%;
+        border-width: 3px;
+        border-style: solid;
+        margin-bottom: 2%;
+        
+    }
+    #btn{
+        height: 36px;
+        width: 30%;
+        text-align: center;
+        background-color: rgb(72, 69, 228);
+        cursor: pointer;
+        
+    }
+    #lib{
+        font-size: large;
+    }
+    #search{
+        margin-top: 10%;
+    }
+    
+    #finalblock{
+        margin-left: -2%;
     }
   }
