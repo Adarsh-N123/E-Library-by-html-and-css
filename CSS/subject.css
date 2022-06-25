@@ -85,3 +85,30 @@
   opacity: 0.8;
   
 }
+#ms{
+  height: 16vw;
+}
+#ms2{
+  height: 24vw;
+}
+
+ 
+  
+@media  screen and (max-width: 800px) {
+  .lkj{
+    margin-top: 10vh;
+  }
+  #zs{
+    margin-top: -19vh;
+  }
+
+}
+@media  screen and (max-width: 1300px) {
+  .lkj{
+    margin-top: 10vh;
+  }
+  #zs{
+    margin-top: -28vh;
+  }
+
+}
