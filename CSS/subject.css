@@ -89,10 +89,10 @@
   margin-top:-37vh;
 }
 #ms{
-  height: 11vw;
+  height: 32vh;
 }
 #ms2{
-  height: 18vw;
+  height: 47vh;
 }
 
  
@@ -104,6 +104,12 @@
   #zs{
     margin-top: -19vh;
   }
+    #ms{
+  height: 16vw;
+    }
+    #ms2{
+      height: 24vw;
+    }
 
 }
 @media  screen and (max-width: 1300px) {
